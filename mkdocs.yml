@@ -1,0 +1,108 @@
+# Replace the text below to customize your site
+site_name: disteln at iaac and fab lab bcn
+site_description: Master in Design for Emergent Futures Documentation
+site_author: stella dikmans
+copyright: Copyleft 2021 "Distel" - GNU Free Documentation License
+site_url: https://stella-dikmans.github.io/distel/
+repo_url: 'https://stella-dikmans.github.io/distel/'
+
+
+nav:
+  - home : index.md
+  - process :
+      - semester 1 :
+          - atlas of weak signals:
+            - my weak signal design space: term1/aows/aows.md
+            - multi scalar thinking: term1/aows/multiscalarthinking.md
+          - bio & agri zero:
+            - about life: term1/bio&agri/aboutlife.md
+      - semester 2 :
+          - digi: term2/ideas2.md
+          - studio: term2/ideas2.md
+      - semester 3 :
+          - digi: term3/ideas3.md
+          - studio: term3/ideas3.md
+  - design spaces :
+      - design space 01: designspaces/designspace.md
+      - drifting : designspaces/drifting.md
+  - design studio :
+      - my hybrid profile : designstudio/hybridprofile/hybridprofile.md
+      - prototyping: designstudio/prototyping/prototyping.md
+  - context :
+      - about me: context/me.md
+      - about my fight: context/myfight.md
+
+
+theme:
+  name: material
+  palette:
+    # try other colors  https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
+    primary: white
+    accent: purple
+  font:
+    # See available fonts at https://fonts.google.com/
+    text: Didact Gothic
+    code: Cutive Mono
+  icon:
+    logo: material/memory
+  favicon: images/icon.png
+  features:
+    - instant
+    - navigation.indexes
+    - navigation.instant
+    # - navigation.prune
+    # - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+
+plugins:
+  - search
+
+
+markdown_extensions:
+  - extra
+  - smarty
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+      title: On this page
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  - md_in_html
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      base_path: 'docs'
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - attr_list
+  - pymdownx.tabbed
+
+extra_css:
+  - stylesheets/extra.css
+  - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css
