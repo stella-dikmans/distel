@@ -76,6 +76,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://stella-dikmans.github.io/distel/term1/designstudioI/communicatingideas/research/</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://stella-dikmans.github.io/distel/term1/designstudioI/companion/companion/</loc>
          <lastmod>2022-12-06</lastmod>
          <changefreq>daily</changefreq>
@@ -87,11 +92,6 @@
     </url>
     <url>
          <loc>https://stella-dikmans.github.io/distel/term1/designstudioI/prototyping/prototyping/</loc>
-         <lastmod>2022-12-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://stella-dikmans.github.io/distel/term1/designstudioI/research/research/</loc>
          <lastmod>2022-12-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
