@@ -21,12 +21,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://stella-dikmans.github.io/distel/progress/drifting/</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://stella-dikmans.github.io/distel/progress/investigation/</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://stella-dikmans.github.io/distel/term1/aows/aows/</loc>
          <lastmod>2022-12-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://stella-dikmans.github.io/distel/term1/aows/multiscalarthinking/</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://stella-dikmans.github.io/distel/term1/aows/designspace/designspace/</loc>
          <lastmod>2022-12-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -56,32 +71,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://stella-dikmans.github.io/distel/term1/designspaces/designspace/</loc>
-         <lastmod>2022-12-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://stella-dikmans.github.io/distel/term1/designspaces/drifting/</loc>
-         <lastmod>2022-12-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://stella-dikmans.github.io/distel/term1/designspaces/investigation/</loc>
-         <lastmod>2022-12-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://stella-dikmans.github.io/distel/term1/designstudioI/autoethnographicintervention/autoethnographicintervention/</loc>
-         <lastmod>2022-12-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://stella-dikmans.github.io/distel/term1/designstudioI/communicatingideas/research/</loc>
-         <lastmod>2022-12-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://stella-dikmans.github.io/distel/term1/designstudioI/companion/companion/</loc>
          <lastmod>2022-12-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -96,7 +86,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://stella-dikmans.github.io/distel/term1/extendetintelligences/extendetintelligences/</loc>
+         <loc>https://stella-dikmans.github.io/distel/term1/designstudioI/workspace/workspace/</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://stella-dikmans.github.io/distel/term1/extendedintelligences/extendedintelligences/</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://stella-dikmans.github.io/distel/term1/livingwithyourownideas/autoethnographicintervention/autoethnographicintervention/</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://stella-dikmans.github.io/distel/term1/livingwithyourownideas/companion/companion/</loc>
          <lastmod>2022-12-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
