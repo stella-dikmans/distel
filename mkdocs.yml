@@ -8,29 +8,45 @@ repo_url: 'https://stella-dikmans.github.io/distel/'
 
 
 nav:
-  - home : index.md
-  - process :
-      - semester 1 :
-          - atlas of weak signals:
-            - my weak signal design space: term1/aows/aows.md
-            - multi scalar thinking: term1/aows/multiscalarthinking.md
-          - bio & agri zero:
-            - about life: term1/bio&agri/aboutlife.md
-      - semester 2 :
-          - digi: term2/ideas2.md
-          - studio: term2/ideas2.md
-      - semester 3 :
-          - digi: term3/ideas3.md
-          - studio: term3/ideas3.md
-  - design spaces :
-      - design space 01: designspaces/designspace.md
-      - drifting : designspaces/drifting.md
-  - design studio :
-      - my hybrid profile : designstudio/hybridprofile/hybridprofile.md
-      - prototyping: designstudio/prototyping/prototyping.md
+  - welcome : index.md
+  - reflections :
+      - performing habitation: intro.md
+      - term one :
+          - design studio I:
+            - term I: term1/designstudioI/designstudio1.md
+            - first interventions: term1/designstudioI/interventions/collectiveinterventions.md
+          - bootcamp : term1/bootcamp/myfight.md
+          - atlas of weak signals: term1/aows/aows.md
+          - bio & agri zero: term1/bio&agri/aboutlife.md
+          - living with your own ideas: term1/livingwithyourownideas/autoethnographicintervention.md
+          - tech beyond the myth: term1/techbeyondthemyth/techbeyondthemyth.md
+          - community engagement: term1/communityengagement/communityengagement.md
+          - extended intelligences: term1/extendedintelligences/extendedintelligences.md
+          - first design dialogues: term1/dialogues1/dialogues1.md
+      - term two :
+          - design studio II:
+            - term II: term2/designstudio2/designstudio2.md
+            - second interventions: term2/designstudio2/interventions2/collectiveinterventions2.md
+          - a billion from now: term2/billionsec/billionsec.md
+          - remixing materials: term2/remixmaterials/remixmaterials.md
+          - making sense and  meaning: term2/makingsense/makingsense.md
+          - communicating ideas: term2/communicating/communicatingideas.md
+          - digital prototyping: term2/prototyping/notes.md
+          - micro challenges: term2/microchallenge/microchallenge.md
+      - term three :
+          - design studio III:
+            - term III: term3/designstudio3/designstudio3.md
+            - third interventions: term3/designstudio3/interventions3/collectiveinterventions3.md
+
+  - masterproject :
+      - in progress: masterproject/masterproject.md
+
+  - progress :
+      - drifting: progress/drifting.md
+      - investigating: progress/investigation.md
+
   - context :
       - about me: context/me.md
-      - about my fight: context/myfight.md
 
 
 theme:
@@ -43,8 +59,8 @@ theme:
     # See available fonts at https://fonts.google.com/
     text: Didact Gothic
     code: Cutive Mono
-  icon:
-    logo: material/memory
+
+  logo: images/icon.png
   favicon: images/icon.png
   features:
     - instant
