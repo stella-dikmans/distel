@@ -867,8 +867,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#exercise-three-lasercut" class="md-nav__link">
-    exercise three - lasercut
+  <a href="#exercise-three-lasercutting-simulations" class="md-nav__link">
+    exercise three - lasercutting simulations
   </a>
   
 </li>
@@ -1303,8 +1303,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#exercise-three-lasercut" class="md-nav__link">
-    exercise three - lasercut
+  <a href="#exercise-three-lasercutting-simulations" class="md-nav__link">
+    exercise three - lasercutting simulations
   </a>
   
 </li>
@@ -1459,10 +1459,22 @@ OpenSCAD: open-source 3D modeling software that is primarily used for creating p
 <p><img src="../CADCAM.png" alt="drawing" width="800"/></p>
 <p>from laser cut to vinyl cut</p>
 <p>what is the difference? on a vinyl cutter, we dont have a x-y axis like in the laser cutte, here we have a right-left movement where the material is being applied onto. but here there exist other parameters we can adapt: speed, force, and durance of application.</p>
-<h3 id="exercise-three-lasercut">exercise three - lasercut<a class="headerlink" href="#exercise-three-lasercut" title="Permanent link">&para;</a></h3>
-<p>make a parametric design, design and test a pressfit to hold the pieces together just by pressure</p>
-<p>OR</p>
-<p>make molds with stacking layers to cast a material ontop</p>
+<h3 id="exercise-three-lasercutting-simulations">exercise three - lasercutting simulations<a class="headerlink" href="#exercise-three-lasercutting-simulations" title="Permanent link">&para;</a></h3>
+<p>somehow since the presentation of edu, the <strong><a href="https://origamisimulator.org/">origami simulator</a></strong> really caught my eye. not that I am a great origami practitioner, its actually quite the opposite, I am very impatient and not precise at all, so the thought of folding tiny papers into tiny figures is not really appealing to be. but I love to watch them, hold them, see them beign folded. the <a href="https://origamisimulator.org/">origami-simulator</a> is designed by <a href="https://github.com/amandaghassaei/OrigamiSimulator">an amanda</a> who very helping explains how things work and offer some example files on her <a href="https://github.com/amandaghassaei/OrigamiSimulator">github page</a>. yet to understand all of this, it took some time and to figure out, that files can be created and adapted in rhino to work in the simulator, took some more. to explain my experience in short, amanda has some <a href="https://github.com/amandaghassaei/OrigamiSimulator/tree/main/assets">example files</a> that I downloaded and than imitated and adapted in variuos ways. the <a href="https://origamisimulator.org/">simulations</a> then show how my rhino-drawing would fold and unfold if it would be paper. well not excactly, sometimes the simulation folds throgh and in if I out the simulations speed on very fast or somehow part just fly away, out of the screen sometimes as well. Well, i had some beautiful results playing around with exploding and colorcoding in various ways. </p>
+<p><img src="../../microchallenge/trial1pattern.png" width="400" >
+<img src="../../microchallenge/trial1.png" width="400" ></p>
+<iframe src="https://www.youtube.com/watch?v=6CcZ05MdBGI" frameborder="0" width="600" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<p><img src="../../microchallenge/trial2pattern.png" width="400" >
+<img src="../../microchallenge/trial2.png" width="400" ></p>
+<p>I also use this newly learned skill in the challenge-week for the <a href="https://origamisimulator.org/">MOC</a> with my team. on a more practical note, the online simulator reads SVGs in a certain way (File - Design Tips on the <a href="https://origamisimulator.org/">simulator</a> (Mountain folds have red stroke - rgb(255, 0, 0), hex #ff0000; Valley folds have blue stroke - rgb(0, 0, 255), hex #0000ff; Boundary edges have black stroke - rgb(0, 0, 0), hex #000000). these rules are different to those I use during the the lasercuttring and the vinylprinting process. here I define the actions and allocate them to the colors of choice - so in the end, the colours I use for the simulation-SVGs are fine to. but its important to keep in mind that the simulation SVGs do not necessarily have the same color-codes as the rhino-files used for printing.</p>
+<p><img src="../../microchallenge/trial3pattern.png" width="400" >
+<img src="../../microchallenge/trial3.png" width="400" ></p>
+<iframe src="https://www.youtube.com/watch?v=sKiC5CueAeU" frameborder="0" width="600" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<p><img src="../../microchallenge/trial4pattern.png" width="400" >
+<img src="../../microchallenge/trial4.png" width="400" ></p>
+<p><img src="../../microchallenge/armadillosfinal.png" width="400" ></p>
 <h2 id="about-embedded-codings-or-how-to-use-input-and-output-sensors">about embedded codings (or how to use input and output sensors)<a class="headerlink" href="#about-embedded-codings-or-how-to-use-input-and-output-sensors" title="Permanent link">&para;</a></h2>
 <p><code>with Victor</code></p>
 <p>how can all this codings and electronics in the end serve us? there is one project that started in the FabLab / MDEF environment some years ago which presents this very clearly - the <strong><a href="https://smartcitizen.me/">smart citizen</a></strong> platform makes citizens use sensors to invesitgate their immediate environments (well still thats not a purspose but it might still as well as inspire some interests). so what we are talking about today is how to connect the elcetronic means in ways that we understand the information shown. meaning in other words to <strong><a href="https://hackmd.io/ECgw7zCkR7WbD5SkcVvcwg?view">sense and input and make us observe and output</a></strong> as an example and excercies, we are playing with <strong><a href="https://learn.adafruit.com/photocells">light sensors</a></strong> and try to code in a way so we know the amount (or strenght?) of the light, reaching the sensor. so in a way we can dimm the light once we would add a controll function.  but for now it is just about setting up the featherboard in a way that a photo receptive sensor which receives light information (thus a <strong><a href="https://learn.adafruit.com/photocells">light sensors</a></strong>) and translates that into elecrticity that therefore gives another sign/ output (such as the lightening of an LED light or the making of a sound).</p>
@@ -1490,6 +1502,7 @@ OpenSCAD: open-source 3D modeling software that is primarily used for creating p
 
 <p>so, the set up that works for me is this one, which is inspired f the official <strong><a href="https://arduinogetstarted.com/tutorials/arduino-light-sensor-triggers-led#content_light_sensor_and_led_on_commercial_products">arduino</a></strong> one to its right</p>
 <p><img src="../setup2.0.png" alt="drawing" width="600"/></p>
+<p>okay, now I just somehow have to combine my morse-experience with the light-sensor output right? well, for another day, its night by now.</p>
 
 
 
