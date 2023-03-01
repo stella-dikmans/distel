@@ -973,6 +973,61 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#about-how-to-make-simple-things-complex-an-led" class="md-nav__link">
+    about how to make simple things complex (an LED)
+  </a>
+  
+    <nav class="md-nav" aria-label="about how to make simple things complex (an LED)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10-blink" class="md-nav__link">
+    1.0 blink
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20-blink-by-command" class="md-nav__link">
+    2.0 blink by command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#30-blink-and-breathe" class="md-nav__link">
+    3.0 blink and breathe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#40-blinking-over-the-network" class="md-nav__link">
+    4.0 blinking over the network
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#50-blinking-together-with-arguments" class="md-nav__link">
+    5.0 blinking together with arguments
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-seven-" class="md-nav__link">
+    exercise seven -
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1484,6 +1539,61 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#about-how-to-make-simple-things-complex-an-led" class="md-nav__link">
+    about how to make simple things complex (an LED)
+  </a>
+  
+    <nav class="md-nav" aria-label="about how to make simple things complex (an LED)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10-blink" class="md-nav__link">
+    1.0 blink
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20-blink-by-command" class="md-nav__link">
+    2.0 blink by command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#30-blink-and-breathe" class="md-nav__link">
+    3.0 blink and breathe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#40-blinking-over-the-network" class="md-nav__link">
+    4.0 blinking over the network
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#50-blinking-together-with-arguments" class="md-nav__link">
+    5.0 blinking together with arguments
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-seven-" class="md-nav__link">
+    exercise seven -
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1746,6 +1856,464 @@ because cmoputers are faster than what cables can transmitt, there are parallel 
 <p>fm (frequency modulation) </p>
 <p>what it the <strong><a href="https://www.pbs.org/wgbh/aso/tryit/radio/radiorelayer.html">difference</a></strong> <em>with AM radio, the amplitude, or overall strength, of the signal is varied to incorporate the sound information. with FM, the frequency (the number of times each second that the current changes direction) of the carrier signal is varied.</em></p>
 <h3 id="exercise-six-a-mdef-internal-whatsap">exercise six - a MDEF internal whatsap<a class="headerlink" href="#exercise-six-a-mdef-internal-whatsap" title="Permanent link">&para;</a></h3>
+<p>we are all using the same broker (laptop of victor)</p>
+<h2 id="about-how-to-make-simple-things-complex-an-led">about how to make simple things complex (an LED)<a class="headerlink" href="#about-how-to-make-simple-things-complex-an-led" title="Permanent link">&para;</a></h2>
+<p><code>with Edu and Oscar</code></p>
+<p>what can we do with a simple LED ? </p>
+<p>why would we? oscar makes us enthiusastic telling us how he collaborates with dance companies. Here is <strong><a href="https://hackmd.io/95FEOJXeSXe9hDu289X-bw?view">Hackmd</a></strong> </p>
+<h3 id="10-blink">1.0 blink<a class="headerlink" href="#10-blink" title="Permanent link">&para;</a></h3>
+<p>simply, make it blink.</p>
+<p><img src="../imagery/blink01.png" alt="drawing" width="600"/></p>
+<p>the code for 1.0 blink:</p>
+<div class="highlight"><pre><span></span><code>/*
+  Blink
+
+  Turns an LED on for one second, then off for one second, repeatedly.
+
+*/
+
+// the setup function runs once when you press reset or power the board
+
+
+#define LED 14 //int LED = 14; practically these two have the same output put they come to the result in different ways.
+
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                      // wait for a second
+  digitalWrite(LED, LOW);   // turn the LED off by making the voltage LOW
+  delay(1000);                      // wait for a second
+}
+</code></pre></div>
+<h3 id="20-blink-by-command">2.0 blink by command<a class="headerlink" href="#20-blink-by-command" title="Permanent link">&para;</a></h3>
+<p>great next. Now we gonna write a code to ask for constent, we want to be asked before the LED is starting to blink. in order to do so, we are using the serial monitor and tell the arduino to do something only in the moment we tell him. it is like a chat between me and the arduino, with the serial monitor as out communication platform. how do we do that? </p>
+<p>we write a code and the open the serial monitor, and write in there the commant <em>blink</em> and (according to what we coded), my arduino will excecute the command - and will blink.</p>
+<p>2.0 blink by command. first it does not work. Our internal communication (the serial monitor) does not respond to my commands. Oscar explains that I need to set up the serial monitor in technical term so that the USB connection does understand. Instead of the <em>new line</em> I change the settings to <em>both NL &amp; CR</em> and the set to <em>9600 baud</em>. Now, I works, if I say <em>blink</em>, my arduino blinks. </p>
+<p>serial.begins = is the communicaion with the USB (universal serial bus). So the speed (in brackets) has to be aliigned between the arduino and our featherboard.</p>
+<p><img src="../imagery/blink02.png" alt="drawing" width="600"/></p>
+<p>now it works, if I say <em>blink fast</em>, tthe arduino blinks fast (because I created a <em>hopping function</em>).</p>
+<p>the code for 2.0 blink by command:</p>
+<div class="highlight"><pre><span></span><code>#include &quot;Arduino.h&quot;
+#define LED_PIN 14
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_PIN, OUTPUT);
+  Serial.begin(9600);
+}
+
+void blink () {
+  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+
+void hopping () {
+  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(100);                       // wait for a second
+  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(100);                       // wait for a second
+  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(100);                       // wait for a second
+  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(100);  
+  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(100);                       // wait for a second
+  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(100);                       // wait for a second
+  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(100);                       // wait for a second
+  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(100); 
+}
+
+// the loop function runs over and over again forever
+void loop() {
+
+  if (Serial.available()) {
+    String newMsg = Serial.readString();
+    newMsg.trim();
+
+    Serial.print(&quot;Got new message!: &quot;);
+    Serial.println(newMsg);
+
+    // blink if we tell it to!
+    if (newMsg.equals(&quot;blink&quot;)){
+      blink();
+    }
+
+    if (newMsg.equals(&quot;blink fast&quot;)){
+      hopping();
+    }
+  }
+}
+</code></pre></div>
+<p>now, this is very inefficient, our code has a lot of lines and will probably only grow till the point that it is so heavy the featherboard cannot hold it anymore and the arduino function does not work. so we are now working toward fully parametrizing our functions as much as possisble&hellip;</p>
+<h3 id="30-blink-and-breathe">3.0 blink and breathe<a class="headerlink" href="#30-blink-and-breathe" title="Permanent link">&para;</a></h3>
+<p>working with a <strong><a href="https://github.com/jandelgado/jled#usage">jled</a></strong> library to make our LED breathe (slowly dimming on and dimming off)</p>
+<p><img src="../imagery/blink03.png" alt="drawing" width="600"/></p>
+<p>the code for 3.0 blink and breathe:</p>
+<div class="highlight"><pre><span></span><code>#include &quot;Arduino.h&quot;
+#include &quot;jled.h&quot;
+#define LED_PIN 14
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  Serial.begin(9600);
+}
+
+// Jled object.
+// More information here: https://github.com/jandelgado/jled#usage
+JLed led = JLed(LED_PIN);
+
+// Basic blink
+void blink () {
+  led.Blink(1000, 600).Repeat(3);
+}
+
+// Smooth breathing
+void breathe() {
+  led.Breathe(1000).Repeat(3);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+
+  if (Serial.available()) {
+    // Read the string and clean it up
+    String newMsg = Serial.readString();
+    newMsg.trim();
+
+    // For debugging purposes, print it
+    Serial.print(&quot;Got new message!: &quot;);
+    Serial.println(newMsg);
+
+    // Blink if we tell it to!
+    if (newMsg.equals(&quot;blink&quot;)){
+      blink();
+    // Or breathe!
+    } else if (newMsg.equals(&quot;breathe&quot;)) {
+      breathe();
+    }
+  }
+
+  // Do not remove this line!
+  led.Update();
+
+}
+</code></pre></div>
+<h3 id="40-blinking-over-the-network">4.0 blinking over the network<a class="headerlink" href="#40-blinking-over-the-network" title="Permanent link">&para;</a></h3>
+<p>like we tried last week with victor, we are using the MQTT (a protocol that is used in a lot of internet of thing - IOT devices) which is used for us to trigger to sensors and allows us to listen the output. </p>
+<p>instead of relying on a cable, we talk via the wifi network existing and we listen all together to the same things. in this case it means we are commanding either <strong><a href="http://13.38.136.18:1880/ui/#!/0?socketid=6xJVi0a3N5PSoeI1AAA9">breathe or blink</a></strong> and all featherboards in class (that managed to connect the wifi-code in their arduino) will see their LEDs lighting up.</p>
+<p><img src="../imagery/blink04.png" alt="drawing" width="600"/></p>
+<p>what needs to be done: defining the wifi network (we/oour featherboards are all connected to) and our name/our featherboaords name&hellip;</p>
+<p>the code for 3.0 blinking over the network:</p>
+<div class="highlight"><pre><span></span><code>#include &quot;jled.h&quot;
+#define LED_PIN 14
+
+// New code for MQTT!
+//-------------------
+#include &lt;WiFi.h&gt;
+#include &lt;PubSubClient.h&gt;
+
+const char* ssid = &quot;Iaac-Wifi&quot;;
+const char* password = &quot;EnterIaac22@&quot;;
+WiFiClient wifiClient;
+
+const char* mqttBroker = &quot;mqtt-staging.smartcitizen.me&quot;;
+const char* mqttClientName = &quot;s&amp;c&quot;;
+const char* mqttClientUser = &quot;fablabbcn102&quot;;
+const char* mqttClientPass = &quot;&quot;;
+const char* topicToSub = &quot;lab&quot;;
+// const char* topicToPub = &quot;lab&quot;;
+PubSubClient mqttClient(wifiClient);
+//-------------------
+
+// Jled object.
+// More information here: https://github.com/jandelgado/jled#usage
+JLed led = JLed(LED_PIN);
+
+//-------------------
+// Add more animations here!
+// Basic blink
+void blink () {
+  led.Blink(1000, 600).Repeat(3);
+}
+
+// Smooth breathing
+void breathe() {
+  led.Breathe(1000).Repeat(3);
+}
+//-------------------
+
+void mqttConnect() {
+
+  while (!mqttClient.connected()) {
+
+    Serial.print(&quot;Attempting MQTT connection...&quot;);
+
+    if (mqttClient.connect(mqttClientName, mqttClientUser, mqttClientPass)) {
+
+      Serial.println(&quot;connected&quot;);
+      mqttClient.publish(&quot;hello&quot;, mqttClientName);
+
+      // Topic(s) subscription
+      mqttClient.subscribe(topicToSub);
+
+    } else {
+
+      Serial.print(&quot;failed, rc=&quot;);
+      Serial.print(mqttClient.state());
+      Serial.println(&quot; try again in 5 seconds&quot;);
+      delay(5000);
+
+    }
+  }
+}
+
+void callback(char* topic, byte* message, unsigned int length) {
+
+  String newMsg;
+
+  for (int i = 0; i &lt; length; i++) {
+    newMsg += (char)message[i];
+  }
+
+  Serial.print(&quot;Message arrived on topic: &quot;);
+  Serial.print(topic);
+  Serial.print(&quot;. Message: &quot;);
+  Serial.println(newMsg);
+
+  if (String(topic) == topicToSub) {
+
+    // For debugging purposes, print it
+    Serial.print(&quot;Got new message!: &quot;);
+    Serial.println(newMsg);
+
+    // Blink if we tell it to!
+    if (newMsg.equals(&quot;blink&quot;)){
+      blink();
+    // Or breathe!
+    } else if (newMsg.equals(&quot;breathe&quot;)) {
+      breathe();
+    }
+  }
+}
+
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  Serial.begin(9600);
+
+  // Connect to wifi
+  WiFi.begin(ssid, password);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(&quot;.&quot;);
+  }
+
+  Serial.print(&quot;Connected to &quot;);
+  Serial.println(ssid);
+  Serial.print(&quot;IP address: &quot;);
+  Serial.println(WiFi.localIP());
+
+  // MQTT setup
+  mqttClient.setServer(mqttBroker, 1883);
+  mqttClient.setCallback(callback);
+
+}
+
+// the loop function runs over and over again forever
+void loop() {
+
+  // Check if we are still connected to the MQTT broker
+  if (!mqttClient.connected()) {
+    mqttConnect();
+  }  
+
+  // Let PubSubClient library do his magic
+  mqttClient.loop();
+
+  // Do not remove this line!
+  led.Update();
+}
+</code></pre></div>
+<h3 id="50-blinking-together-with-arguments">5.0 blinking together with arguments<a class="headerlink" href="#50-blinking-together-with-arguments" title="Permanent link">&para;</a></h3>
+<p>great, can we make this part even a bit more complex? maybe with a slider so we can adapt the speed (intensity) of the function (either blink or breathe)? </p>
+<p>what we need to code an argument so a broker can translate within the network. </p>
+<p>again we need to change the wifi network (we/oour featherboards are all connected to) credentials and add our name/our featherboaords names.</p>
+<p>the code for 5.0 blinking together with arguments:</p>
+<div class="highlight"><pre><span></span><code>#include &quot;Arduino.h&quot;
+#include &quot;jled.h&quot;
+#define LED_PIN 14
+
+// New code for MQTT!
+//-------------------
+#include &lt;WiFi.h&gt;
+#include &lt;PubSubClient.h&gt;
+
+const char* ssid = &quot;Iaac-Wifi&quot;;
+const char* password = &quot;EnterIaac22@&quot;;
+WiFiClient wifiClient;
+
+const char* mqttBroker = &quot;mqtt-staging.smartcitizen.me&quot;;
+const char* mqttClientName = &quot;c&amp;s&quot;;
+const char* mqttClientUser = &quot;fablabbcn102&quot;;
+const char* mqttClientPass = &quot;&quot;;
+const char* topicToSub = &quot;lab&quot;;
+// const char* topicToPub = &quot;lab&quot;;
+PubSubClient mqttClient(wifiClient);
+//-------------------
+
+// Jled object.
+// More information here: https://github.com/jandelgado/jled#usage
+JLed led = JLed(LED_PIN);
+
+//-------------------
+// Add more animations here!
+// Basic blink
+void blink (int time_on = 100) {
+  led.Blink(time_on, time_on).Repeat(3);
+}
+
+// Smooth breathing
+void breathe(int time_on = 100) {
+  led.Breathe(time_on).Repeat(3);
+}
+//-------------------
+
+// burn
+void burn(int time_on = 100) {
+  led.Candle(time_on).Repeat(3);
+}
+//-------------------
+
+
+void mqttConnect() {
+
+  while (!mqttClient.connected()) {
+
+    Serial.print(&quot;Attempting MQTT connection...&quot;);
+
+    if (mqttClient.connect(mqttClientName, mqttClientUser, mqttClientPass)) {
+
+      Serial.println(&quot;connected&quot;);
+      mqttClient.publish(&quot;hello&quot;, mqttClientName);
+
+      // Topic(s) subscription
+      mqttClient.subscribe(topicToSub);
+
+    } else {
+
+      Serial.print(&quot;failed, rc=&quot;);
+      Serial.print(mqttClient.state());
+      Serial.println(&quot; try again in 5 seconds&quot;);
+      delay(5000);
+
+    }
+  }
+}
+
+void callback(char* topic, byte* message, unsigned int length) {
+
+  String newMsg;
+
+  for (int i = 0; i &lt; length; i++) {
+    newMsg += (char)message[i];
+  }
+
+  // Serial.print(&quot;Message arrived on topic: &quot;);
+  // Serial.print(topic);
+  // Serial.print(&quot;. Message: &quot;);
+  // Serial.println(newMsg);
+
+  if (String(topic) == topicToSub) {
+
+    // For debugging purposes, print it
+    // Serial.print(&quot;Got new message!: &quot;);
+    // Serial.println(newMsg);
+
+    int pos = newMsg.indexOf(&quot;/&quot;);
+    String action;
+    int param;
+    if (pos &gt; -1) {
+      action = newMsg.substring(0, pos);
+      param = newMsg.substring(pos+1).toInt();
+    } else {
+      action = newMsg;
+      param = 100;
+    }
+
+    // Serial.print(&quot;Action requested: &quot;);
+    // Serial.println(action);    
+
+    // Serial.print(&quot;Parameter: &quot;);
+    // Serial.println(param);
+
+    // Blink if we tell it to!
+    if (action.equals(&quot;blink&quot;)){
+      blink(param);
+    // Or breathe!
+    } else if (action.equals(&quot;breathe&quot;)) {
+      breathe(param);
+    } else if (action.equals(&quot;burn&quot;)) {
+      burn(param);
+    }
+
+
+  }
+}
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  Serial.begin(9600);
+
+  // Connect to wifi
+  WiFi.begin(ssid, password);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(&quot;.&quot;);
+  }
+
+  Serial.print(&quot;Connected to &quot;);
+  Serial.println(ssid);
+  Serial.print(&quot;IP address: &quot;);
+  Serial.println(WiFi.localIP());
+
+  // MQTT setup
+  mqttClient.setServer(mqttBroker, 1883);
+  mqttClient.setCallback(callback);
+
+}
+
+// the loop function runs over and over again forever
+void loop() {
+
+  // Check if we are still connected to the MQTT broker
+  if (!mqttClient.connected()) {
+    mqttConnect();
+  }  
+
+  // Let PubSubClient library do his magic
+  mqttClient.loop();
+
+  // Do not remove this line!
+  led.Update();
+}
+</code></pre></div>
+<h3 id="exercise-seven-">exercise seven -<a class="headerlink" href="#exercise-seven-" title="Permanent link">&para;</a></h3>
 
 
 
