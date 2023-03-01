@@ -1851,7 +1851,9 @@ because cmoputers are faster than what cables can transmitt, there are parallel 
 <h3 id="10-blink">1.0 blink<a class="headerlink" href="#10-blink" title="Permanent link">&para;</a></h3>
 <p>simply, make it blink.</p>
 <p><img src="../imagery/blink01.png" alt="drawing" width="600"/></p>
-<p>the code for 1.0 blink:</p>
+<details> 
+the code for 1.0 blink:
+
 <div class="highlight"><pre><span></span><code>/*
   Blink
 
@@ -1877,6 +1879,8 @@ void loop() {
   delay(1000);                      // wait for a second
 }
 </code></pre></div>
+</details>
+
 <h3 id="20-blink-by-command">2.0 blink by command<a class="headerlink" href="#20-blink-by-command" title="Permanent link">&para;</a></h3>
 <p>great next. Now we gonna write a code to ask for constent, we want to be asked before the LED is starting to blink. in order to do so, we are using the serial monitor and tell the arduino to do something only in the moment we tell him. it is like a chat between me and the arduino, with the serial monitor as out communication platform. how do we do that? </p>
 <p>we write a code and the open the serial monitor, and write in there the commant <em>blink</em> and (according to what we coded), my arduino will excecute the command - and will blink.</p>
@@ -1884,7 +1888,9 @@ void loop() {
 <p>serial.begins = is the communicaion with the USB (universal serial bus). So the speed (in brackets) has to be aliigned between the arduino and our featherboard.</p>
 <p><img src="../imagery/blink02.png" alt="drawing" width="600"/></p>
 <p>now it works, if I say <em>blink fast</em>, tthe arduino blinks fast (because I created a <em>hopping function</em>).</p>
-<p>the code for 2.0 blink by command:</p>
+<details> 
+the code for 2.0 blink by command:
+
 <div class="highlight"><pre><span></span><code>#include &quot;Arduino.h&quot;
 #define LED_PIN 14
 
@@ -1942,11 +1948,15 @@ void loop() {
   }
 }
 </code></pre></div>
+</details>
+
 <p>now, this is very inefficient, our code has a lot of lines and will probably only grow till the point that it is so heavy the featherboard cannot hold it anymore and the arduino function does not work. so we are now working toward fully parametrizing our functions as much as possisble&hellip;</p>
 <h3 id="30-blink-and-breathe">3.0 blink and breathe<a class="headerlink" href="#30-blink-and-breathe" title="Permanent link">&para;</a></h3>
 <p>working with a <strong><a href="https://github.com/jandelgado/jled#usage">jled</a></strong> library to make our LED breathe (slowly dimming on and dimming off)</p>
 <p><img src="../imagery/blink03.png" alt="drawing" width="600"/></p>
-<p>the code for 3.0 blink and breathe:</p>
+<details> 
+the code for 3.0 blink and breathe:
+
 <div class="highlight"><pre><span></span><code>#include &quot;Arduino.h&quot;
 #include &quot;jled.h&quot;
 #define LED_PIN 14
@@ -1997,12 +2007,17 @@ void loop() {
 
 }
 </code></pre></div>
+
+</details>
+
 <h3 id="40-blinking-over-the-network">4.0 blinking over the network<a class="headerlink" href="#40-blinking-over-the-network" title="Permanent link">&para;</a></h3>
 <p>like we tried last week with victor, we are using the MQTT (a protocol that is used in a lot of internet of thing - IOT devices) which is used for us to trigger to sensors and allows us to listen the output. </p>
 <p>instead of relying on a cable, we talk via the wifi network existing and we listen all together to the same things. in this case it means we are commanding either <strong><a href="http://13.38.136.18:1880/ui/#!/0?socketid=6xJVi0a3N5PSoeI1AAA9">breathe or blink</a></strong> and all featherboards in class (that managed to connect the wifi-code in their arduino) will see their LEDs lighting up.</p>
 <p><img src="../imagery/blink04.png" alt="drawing" width="600"/></p>
 <p>what needs to be done: defining the wifi network (we/oour featherboards are all connected to) and our name/our featherboaords name&hellip;</p>
-<p>the code for 3.0 blinking over the network:</p>
+<details> 
+the code for 4.0 blinking over the network:
+
 <div class="highlight"><pre><span></span><code>#include &quot;jled.h&quot;
 #define LED_PIN 14
 
@@ -2135,11 +2150,15 @@ void loop() {
   led.Update();
 }
 </code></pre></div>
+</details>
+
 <h3 id="50-blinking-together-with-arguments">5.0 blinking together with arguments<a class="headerlink" href="#50-blinking-together-with-arguments" title="Permanent link">&para;</a></h3>
 <p>great, can we make this part even a bit more complex? maybe with a slider so we can adapt the speed (intensity) of the function (either blink or breathe)? </p>
 <p>what we need to code an argument so a broker can translate within the network. </p>
 <p>again we need to change the wifi network (we/oour featherboards are all connected to) credentials and add our name/our featherboaords names.</p>
-<p>the code for 5.0 blinking together with arguments:</p>
+<details> 
+the code for 5.0 blinking together with arguments:
+
 <div class="highlight"><pre><span></span><code>#include &quot;Arduino.h&quot;
 #include &quot;jled.h&quot;
 #define LED_PIN 14
@@ -2300,6 +2319,9 @@ void loop() {
   led.Update();
 }
 </code></pre></div>
+</details>
+
+<p>just some more thought on <strong><a href="http://13.38.136.18:1880/ui/#!/0?socketid=8y1w65_dIfa9Umd3AAB7">NODE RED Dashboard</a></strong> </p>
 
 
 
