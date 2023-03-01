@@ -1632,6 +1632,177 @@ and the right <em>board</em>: in this case: &ldquo;Adafruit ESP32 Feather&rdquo;
 <p>another nice application I would like to share here is our dear friend&rsquo;s birthday party. to avoid the typical party moment where everyone starts singing so loudly that they might drown out the others, we thought it would be nice to use our little music-making machiene instead. so we exposed the party guests to the queer sounds of the little featherboard.</p>
 <p><img src="../imagery/bday.png" alt="drawing" width="800"/></p>
 <p>(well, after that little warm up we ended up singing anyways)</p>
+<details>
+
+<div class="highlight"><pre><span></span><code>/* 
+  Happy Birthday
+  Connect a piezo buzzer or speaker to pin 13 or select a new pin.
+  More songs available at https://github.com/robsoncouto/arduino-songs                                            
+
+                                              Robson Couto, 2019
+*/
+#define NOTE_B0  31
+#define NOTE_C1  33
+#define NOTE_CS1 35
+#define NOTE_D1  37
+#define NOTE_DS1 39
+#define NOTE_E1  41
+#define NOTE_F1  44
+#define NOTE_FS1 46
+#define NOTE_G1  49
+#define NOTE_GS1 52
+#define NOTE_A1  55
+#define NOTE_AS1 58
+#define NOTE_B1  62
+#define NOTE_C2  65
+#define NOTE_CS2 69
+#define NOTE_D2  73
+#define NOTE_DS2 78
+#define NOTE_E2  82
+#define NOTE_F2  87
+#define NOTE_FS2 93
+#define NOTE_G2  98
+#define NOTE_GS2 104
+#define NOTE_A2  110
+#define NOTE_AS2 117
+#define NOTE_B2  123
+#define NOTE_C3  131
+#define NOTE_CS3 139
+#define NOTE_D3  147
+#define NOTE_DS3 156
+#define NOTE_E3  165
+#define NOTE_F3  175
+#define NOTE_FS3 185
+#define NOTE_G3  196
+#define NOTE_GS3 208
+#define NOTE_A3  220
+#define NOTE_AS3 233
+#define NOTE_B3  247
+#define NOTE_C4  262
+#define NOTE_CS4 277
+#define NOTE_D4  294
+#define NOTE_DS4 311
+#define NOTE_E4  330
+#define NOTE_F4  349
+#define NOTE_FS4 370
+#define NOTE_G4  392
+#define NOTE_GS4 415
+#define NOTE_A4  440
+#define NOTE_AS4 466
+#define NOTE_B4  494
+#define NOTE_C5  523
+#define NOTE_CS5 554
+#define NOTE_D5  587
+#define NOTE_DS5 622
+#define NOTE_E5  659
+#define NOTE_F5  698
+#define NOTE_FS5 740
+#define NOTE_G5  784
+#define NOTE_GS5 831
+#define NOTE_A5  880
+#define NOTE_AS5 932
+#define NOTE_B5  988
+#define NOTE_C6  1047
+#define NOTE_CS6 1109
+#define NOTE_D6  1175
+#define NOTE_DS6 1245
+#define NOTE_E6  1319
+#define NOTE_F6  1397
+#define NOTE_FS6 1480
+#define NOTE_G6  1568
+#define NOTE_GS6 1661
+#define NOTE_A6  1760
+#define NOTE_AS6 1865
+#define NOTE_B6  1976
+#define NOTE_C7  2093
+#define NOTE_CS7 2217
+#define NOTE_D7  2349
+#define NOTE_DS7 2489
+#define NOTE_E7  2637
+#define NOTE_F7  2794
+#define NOTE_FS7 2960
+#define NOTE_G7  3136
+#define NOTE_GS7 3322
+#define NOTE_A7  3520
+#define NOTE_AS7 3729
+#define NOTE_B7  3951
+#define NOTE_C8  4186
+#define NOTE_CS8 4435
+#define NOTE_D8  4699
+#define NOTE_DS8 4978
+#define REST      0
+
+
+// change this to make the song slower or faster
+int tempo = 140;
+
+// change this to whichever pin you want to use
+int buzzer = 13;
+
+// notes of the moledy followed by the duration.
+// a 4 means a quarter note, 8 an eighteenth , 16 sixteenth, so on
+// !!negative numbers are used to represent dotted notes,
+// so -4 means a dotted quarter note, that is, a quarter plus an eighteenth!!
+int melody[] = {
+
+  // Happy Birthday
+  // Score available at https://musescore.com/user/8221/scores/26906
+
+  NOTE_C4,4, NOTE_C4,8, 
+  NOTE_D4,-4, NOTE_C4,-4, NOTE_F4,-4,
+  NOTE_E4,-2, NOTE_C4,4, NOTE_C4,8, 
+  NOTE_D4,-4, NOTE_C4,-4, NOTE_G4,-4,
+  NOTE_F4,-2, NOTE_C4,4, NOTE_C4,8,
+
+  NOTE_C5,-4, NOTE_A4,-4, NOTE_F4,-4, 
+  NOTE_E4,-4, NOTE_D4,-4, NOTE_AS4,4, NOTE_AS4,8,
+  NOTE_A4,-4, NOTE_F4,-4, NOTE_G4,-4,
+  NOTE_F4,-2,
+
+};
+
+// sizeof gives the number of bytes, each int value is composed of two bytes (16 bits)
+// there are two values per note (pitch and duration), so for each note there are four bytes
+int notes = sizeof(melody) / sizeof(melody[0]) / 2;
+
+// this calculates the duration of a whole note in ms
+int wholenote = (60000 * 4) / tempo;
+
+int divider = 0, noteDuration = 0;
+
+void setup() {
+  // iterate over the notes of the melody.
+  // Remember, the array is twice the number of notes (notes + durations)
+  for (int thisNote = 0; thisNote &lt; notes * 2; thisNote = thisNote + 2) {
+
+    // calculates the duration of each note
+    divider = melody[thisNote + 1];
+    if (divider &gt; 0) {
+      // regular note, just proceed
+      noteDuration = (wholenote) / divider;
+    } else if (divider &lt; 0) {
+      // dotted notes are represented with negative durations!!
+      noteDuration = (wholenote) / abs(divider);
+      noteDuration *= 1.5; // increases the duration in half for dotted notes
+    }
+
+    // we only play the note for 90% of the duration, leaving 10% as a pause
+    tone(buzzer, melody[thisNote], noteDuration * 0.9);
+
+    // Wait for the specief duration before playing the next note.
+    delay(noteDuration);
+
+    // stop the waveform generation before the next note.
+    noTone(buzzer);
+  }
+}
+
+void loop() {
+  // no need to repeat the melody.
+}
+</code></pre></div>
+</details>
+
 <h2 id="about-the-basic-design-tools">about the basic design tools<a class="headerlink" href="#about-the-basic-design-tools" title="Permanent link">&para;</a></h2>
 <p>(of digital fabrication e.g. 2D,3D,CAD, and CAM)</p>
 <p><code>with Edu</code></p>
@@ -1748,6 +1919,79 @@ OpenSCAD: open-source 3D modeling software that is primarily used for creating p
 <p>so, the set up that works for me is this one, which is inspired f the official <strong><a href="https://arduinogetstarted.com/tutorials/arduino-light-sensor-triggers-led#content_light_sensor_and_led_on_commercial_products">arduino</a></strong> one to its right</p>
 <p><img src="../imagery/setup2.0.png" alt="drawing" width="600"/></p>
 <p>okay, now I just somehow have to combine my morse-experience with the light-sensor output right? well, for another day, its night by now.</p>
+<details>
+
+<div class="highlight"><pre><span></span><code>int LED = 25;
+int unit = 200; // this is just according the the international morse code syntax to make it easier to write
+int dot = 200; // 
+int dash = 600; // three units according to the inernational morsse code syntax
+int letterGap = 600; // seven units according to the inernational morsse code syntax
+int wordGap = 1400; // seven units according to the inernational morsse code syntax
+
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(LED, OUTPUT); //make pin A3 output
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  switchLED(dash);
+  delay(letterGap);
+  switchLED(dash);
+  switchLED(dash);
+  switchLED(dash);
+  delay(wordGap);
+  switchLED(dot);
+  switchLED(dash);
+  delay(letterGap);
+  switchLED(dot);
+  switchLED(dash);
+  switchLED(dot);
+  switchLED(dot);
+  delay(letterGap);
+  switchLED(dot);
+  switchLED(dash);
+  switchLED(dot);
+  switchLED(dot);
+  delay(wordGap);
+  switchLED(dash);
+  switchLED(dash);
+  delay(letterGap);
+  switchLED(dot);
+  switchLED(dot);
+  switchLED(dot);
+  switchLED(dot);
+  delay(letterGap);
+  switchLED(dot);
+  delay(letterGap);
+  switchLED(dot);
+  switchLED(dash);
+  switchLED(dot);
+  delay(letterGap);
+  switchLED(dash);
+  switchLED(dash);
+  switchLED(dash);
+  delay(letterGap);
+  switchLED(dot);
+  delay(letterGap);
+  switchLED(dot);
+  switchLED(dot);
+  switchLED(dot);
+}
+
+void switchLED(int timing) {
+  digitalWrite(LED, LOW);
+  delay (timing);
+  digitalWrite(LED, HIGH);
+  delay (timing);
+
+}
+</code></pre></div>
+
+</details>
+
 <h2 id="the-first-microchallenge">the first microchallenge<a class="headerlink" href="#the-first-microchallenge" title="Permanent link">&para;</a></h2>
 <p>in the first micro-challenge week we are asked to implement the skills we theorized so far about &hellip; like lasercutting and vinylprinting, parametrics and press fit designs, how to code arduino sensors and more.</p>
 <p>my personal work evolves around storytelling, making up spaces for voices to resonate in and miking up the circles people find themselves thinking with. as I am in the MDEF programm at the moment working with myrto 24/7, we decided to took the chance to step back from our togetherness and let ourselves go with tthe flow of some other ideas. Marielle and Carolina had already found each other and merged their POC-experience-frustrations into a concrete idea of working with the ignorance of white people towards the statues of colonizers and their histories in the city (BCN). in my theoretical thoughworld I am dealing a lot with (de)colonial practices and anyways, this means re-telling stories and giving voice, so I stepped in to become the white addative to our multiracial team. here you go, enjoy the presentation of the <strong><a href="https://stella-dikmans.github.io/distel/term2/microchallenge/microchallenge/#first-micro-challenge-week">first micro challenge</a></strong>. </p>
