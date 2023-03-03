@@ -2,7 +2,9 @@
 hide:
     - toc
 ---
+
 <img src="images/frontpage.png" alt="drawing" width=800" align="right"/>
+
 #
 ##my not so secret garden
 

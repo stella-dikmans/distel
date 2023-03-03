@@ -136,4 +136,4 @@ furthermore I am interested in creating sun-light-playing cubes, sculptural piec
 
 the flexible gelatine material allowed me (after various trials to find out the right composition of gelatine and glycerin) to sew pieces together and create a small version of a cube.
 
-<img src="../sun.png" alt="drawing" width="800"/>
+<img src="../sun.png" alt="drawing" width="400"/>

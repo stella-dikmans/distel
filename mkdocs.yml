@@ -43,7 +43,7 @@ nav:
 
   - progress :
       - drifting: progress/drifting.md
-      - investigating: progress/investigation.md
+      - investigating random things: progress/investigation.md
 
   - context :
       - about me: context/me.md

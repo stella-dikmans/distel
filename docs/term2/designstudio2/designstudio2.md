@@ -20,10 +20,19 @@ three take-aways from the last term
 
 the first interventions I co-facilitated were broad and related to multi-species collaborations and integrative design processes. as events unfolded, I realized that I am not interested in multispecies design practices per se. I see my agency more in creating spaces, in curating spaces where the voices of multiple species can resonate in. I am interested in disrupting the monophony of futures and in the potential of storytelling as a tool for speculation. rather than designing futures that will always remain unpredictable, I see strength in fictional and collaborative processes that decenter the (human)self. relating this to my project idea about water, my next interventions could deal with a gathering of stories about, with and from water as an actant in the complex network of the planet's cycles. I organized a visit to **[Aigües de Barcelona](https://www.amb.cat/web/ecologia/aigua/instalacions-i-equipaments/detall/-/equipament/edar-del-prat-de-llobregat/276285/11818)** in Llobregat del Prat which will finally happen in the following week. furthermore, with my friend and colleague Myrto, we are participating in a conference about the potentialities of speculative fiction in educational context at the **[Disseny Hub Barcelona](https://esbrina.eu/es/portfolio/imaginar-mundos-posibles-potencialidades-limites-y-fricciones-de-la-ficcion-especulativa-en-la-investigacion-y-la-educacion-2/)**. Both are steps in the right direction and I am excited about what’s will evolve out of these events.
 
-##design space 03 / 2023
+## design space 03 / 2023
 
 <img src="../designspace2023.jpg" alt="drawing" width="800"/>
 
 ##design space 04 / 2023 with Myrto
 
 <img src="../designspace2023myrto.jpg" alt="drawing" width="800"/> 
+
+## where do I go? 
+
+I am lost, fully, entirely, with my whole existence lost in where I go, where I come from and what my aims are.
+
+to center myself - in myself and my environment - I am mapping things out here. hopefully that helps? 
+
+<img src="../lost.jpg" alt="drawing" width="900"/> 
+

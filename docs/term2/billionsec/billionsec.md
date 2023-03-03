@@ -27,7 +27,8 @@ in their project **[Billion Seconds Institute](https://www.iam-internet.com/bill
 So even more than seeing futures as a *inter-relationship* between entities, talking about *intra-vening* in current systematic thinkings about possible futures allows to take in a perspective from within the systems itself. 
 
 to practice this critical hope we put ourselves into a situation one billion seconds from now and imagined our **[daily life](https://docs.google.com/presentation/d/107fKXGNEeSpYtFzY3p7to2Dr1ZKaNlNFXIKJXO-pcQM/edit#slide=id.g576ef57470d7477_6)**
-<iframe src="https://docs.google.com/presentation/d/107fKXGNEeSpYtFzY3p7to2Dr1ZKaNlNFXIKJXO-pcQM/edit#slide=id.g576ef57470d7477_6" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<iframe src="https://drive.google.com/file/d/1EMSWU6sywy61TYG1vOaXJYAml8nHVmRS/preview" width="800" height="400" allow="autoplay"></iframe>
 
 additionally, we were invited to write a letter send by our future-self in the 2050s ‘(thus one billion seconds from now)
 <img src="../letter.png" alt="drawing" width="800"/>
