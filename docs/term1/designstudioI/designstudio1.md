@@ -1,13 +1,13 @@
 ##
-#design studio I
+# design studio I
 
 `with Oscar Tomico and Mariana Quintero`
 
-the *MDEF design studio* aims to bring project ideas into an advanced concretion point, and execution plan. It is structured in three terms of which this is the first. we will learn what it means to design for emergent futures, by analyzing pasts, presents and futures from first-person perspectives. we will look for *weak signals* and find out how they can have leverage. we will build our identity as designers and reflect on where our strengths lie and where we can have impact.
+the *MDEF design studio* aims to bring project ideas into an advanced concretion point, and execution plan. it is there to introduce us to the methodology the MDEF programm uses to imagine alternative presents. three phases are defining the structure of our year as well. in term 1 we deal with framing perspectives, in term 2 we iterate through practically the embodying of scenaios, and in term 3 we scale ideas and prjects up and build infrastructures for enabling. in the first term we will learn what it means to design for emergent futures, by analyzing pasts, presents and futures from first-person perspectives (1PP). we will look for *weak signals* and find out how they can have leverage. we will build our identity as designers and reflect on where our strengths lie and where we can have impact.
 
 the aim is to develop a critical design practice by the end of the semester that operates in fertile areas of interventions built on mappings, cartographies, experiments, 1st person design activities and prototypes.
-#
-#prototyping
+#s
+# prototyping
 *prototyping as a tool for my design practice*
 
 prototypes can help to capture and visualize data. what role we assign to the prototype is important because the way we prototype will shape our projects and design processes. Oscar Tomico introduced us to four different roles that prototyping can play in design practice and enquiry processes.
@@ -83,7 +83,7 @@ having defined the design space in which I move, it was about time to talk about
 
 <img src="../enableingemergence.png" alt="drawing" width="600" />
 
-##various methodologies
+## first-person perspective (1PP)
 
 the first-person perspective (1PP) is one of the *research through design tools* that works as an iterative design intervention. It aims to involve me personally and the embodiment of learning and unlearning.
 

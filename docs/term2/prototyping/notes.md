@@ -1260,3 +1260,5 @@ these 50 digital joint poster is Edu's bible
 <img src="../imagery/50joints.jpg" alt="drawing" width="500"/>
 
 ## excercise eight - 
+
+hello

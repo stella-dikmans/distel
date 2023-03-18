@@ -10,7 +10,7 @@ disclaimer, I was sick the entire week and am still recovering. meaning that my 
 
 okay, coming to the project itself... in the first micro-challenge week we are asked to implement some of the skills we learned (or not but at least got introduced to) the weeks coming up to this, like what lasercutting is, what parametrics are, how to code arduino sensor...
 
-<img src="../about.jpg" alt="drawing" width="800"/>
+<img src="../imageryI/about.jpg" alt="drawing" width="800"/>
 
 my personal work evolves around storytelling, making up spaces for voices to resonate in and miking up the circles people find themselves thinking with. as I am in the MDEF programm at the moment working with myrto 24/7, we decided to took the chance to step back from our togetherness and let ourselves go with tthe flow of some other ideas. Marielle and Carolina had already found each other and merged their POC-experience-frustrations into a concrete idea of working with the ignorance of white people towards the statues of colonizers and their histories in the city (BCN). in my theoretical thoughworld I am dealing a lot with (de)colonial practices and anyways, this means re-telling stories and giving voice, so I stepped in to become the white addative to our multiracial team.
 
@@ -24,11 +24,11 @@ here I will more individually reflect on the team work and my individual input.
 
 ##how we came together
 
-<img src="../interests.jpg" alt="drawing" width="800"/>
+<img src="../imageryI/interests.jpg" alt="drawing" width="800"/>
 
 our overlapping interest show our common concern with the "truth" we are being told and the way to tackle their revealments. we agree on that the present time was very poorly designed by a selective group and that it needs the uncovering of the dirty history of hidden public artifacts in order to embrace other futures (by other we mean the furthest point possible from patriarchy, capitalist and neo-colonist structures). in our ideation processes and references we encounter funny ways to deal with ignorance and cynical approaches to sillyness.  
 
-<img src="../references.png" alt="drawing" width="800"/>
+<img src="../imageryI/references.png" alt="drawing" width="800"/>
 
 ##what we provide
 
@@ -61,52 +61,52 @@ the [origami-simulator](https://origamisimulator.org/) is designed by [an amanda
 
 the online simulator reads SVGs in one way (File - Design Tips on the [webpage](https://origamisimulator.org/)) (Mountain folds have red stroke - rgb(255, 0, 0), hex #ff0000; Valley folds have blue stroke - rgb(0, 0, 255), hex #0000ff; Boundary edges have black stroke - rgb(0, 0, 0), hex #000000) which can vary from the rules used in the lasercutter- and the vinylprinter software. here often you can define the actions and allocate them to colors of choice. but its important to keep in mind that the simulation SVGs do not necessarily have the same color-codes as the rhino-files used for printing. After exporting the rhino-drawing as an SVG, the simulator shows my first trials that where kind of beautiful yet definetely not as expected. 
 
-<img src="../trial1pattern.png" width="400" >
-<img src="../trial1.png" width="400" >
+<img src="../imageryI/trial1pattern.png" width="400" >
+<img src="../imageryI/trial1.png" width="400" >
 
 here you can see [the simulation](https://www.youtube.com/watch?v=6CcZ05MdBGI)
 
-<img src="../trial2pattern.png" width="400" >
-<img src="../trial2.png" width="400" >
+<img src="../imageryI/trial2pattern.png" width="400" >
+<img src="../imageryI/trial2.png" width="400" >
 
 okay, once I figured how it all works, I tried to immitade [amandas](https://github.com/amandaghassaei/OrigamiSimulator) design and to play with some drawings in rhino, to then upload these into the simulator and print with the vinylcutter.
 
-<img src="../trial3pattern.png" width="400" >
-<img src="../trial3.png" width="400" >
+<img src="../imageryI/trial3pattern.png" width="400" >
+<img src="../imageryI/trial3.png" width="400" >
 
 here you can see [the simulation of the almost final piece - something is still wrong](https://www.youtube.com/watch?v=sKiC5CueAeU).
 
 so in the end it all seemed quit difficult to get the right proportions and stuff so I sticked to [amandas](https://github.com/amandaghassaei/OrigamiSimulator) file and just adapted the size to a A3 length in order to make it handy when printing. and look there, the fold paper looks pretty much like the simulation. in the end, what does it matter if I create the file myself or downloaded other peoples work? sharing is caring and I am sure amanda put them out there for us to make use of them. 
 
-<img src="../trial4pattern.png" width="400" >
-<img src="../trial4.png" width="400" >
+<img src="../imageryI/trial4pattern.png" width="400" >
+<img src="../imageryI/trial4.png" width="400" >
 
-<img src="../gumballs_armadillo.jpg" width="400" >
+<img src="../imageryI/gumballs_armadillo.jpg" width="400" >
 
 
 a few more things that came up while cutting and printing... we use paper (because we want to print text on them and have the hapticity of a entrance ticket or letter or something foldable that is easy to pocket away), meaning tha engraving the pattern in order to make fold easier have to be very precise not to cut through fully. 
 
 my experience with the lasercut. I tried a variety of power and speeds
 
-<img src="../lasertrials.JPG" width="400" >
+<img src="../imageryI/lasertrials.JPG" width="400" >
 
 and in the end came up with this settings (yet they vary for each lasercutter. I tried with another lasercutter and it was way to heavy there) 
 
-<img src="../lasercutter.JPG" width="400" >
+<img src="../imageryI/lasercutter.JPG" width="400" >
 
 but for the actual balls we did not make use of the lasercutter (mostly due to bad organization and availabilty of the lasercutter) but instead used the vinylcutter. this takes way longer and about the precision can be fought. but it had two great advantages... we could take it with us and for that work on it with immediate adaptations and because it has a blade instead of a laser, there are no traces of burning material to be seen in the end piece. 
 
 for the vinyl print the final settings were the lowest possible for the folds and the standard cutting ones for the outline.
 
-<img src="../vinylprint.png" width="400" >
+<img src="../imageryI/vinylprint.png" width="400" >
 
 okay, the making of the balls was thought to be the most easy and time-least intense task yet it turns out to keep us busy for quite some hours, days and evenings. in the end, we made it to these little creatures that thanks to Myrto got the name Armadillos (because they look like them...).
 
-<img src="../armadillo.gif" width="400" >
+<img src="../imageryI/armadillo.gif" width="400" >
 
 and heeeere in it's preliminary final state:
 
-<img src="../MOC.gif" width="400" >
+<img src="../imageryI/MOC.gif" width="400" >
 
 ##what we overlooked
 

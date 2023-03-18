@@ -44,3 +44,12 @@ By looking at my positionality, I reveal the intersectionality (Kimberlé Crensh
 
 So, it seems a good idea to reflect again and again which positions I take, and which positions I don’t take. Furthermore, when executing research, it is important to state my positionality towards the research I am conducting. The aim is to create transparency about the biases that shape the investigation. This includes reflecting on my social position and on the theoretical lenses I wear.
 When I speak, you will hear about the realities that I perceive of the world I find myself in.  
+
+### interesting references:
+
+• **[billion seconds institute](https://www.iam-internet.com/billion)**
+
+• **[positionality media](https://www.mitemmc.org/monthly-tips/positionality-intersectionality-and-privilege-in-health-professions-education-research/)**
+
+• 
+

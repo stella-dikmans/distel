@@ -1,10 +1,25 @@
 
 #collective interventions
 
+## plativerse
+`on 09.01.2023. cartographying scar tomico's trial o cohabitate`
+
+a plantiversal lexicon for a designer and his journey towards living-with.
+
+it is a monday night, after a day of *classes* and *future talks*, we (Myrto and me) are entering the building in which our teacher and mentor Oscar Tomico lives in an apartment on the second floor. we are equipped with cameras and pens and big papers and all kinds of ideas how we will map out the more-than-human interrelationships that we will observe that evening. three hourse later, we leave the building again, not one picture is taken, not one line is drawn, we leave empty headed and with a heavy audio file on our phones. 
+
+somehow it feels more natural to sit on the couch among all the green life and exchange thoughts about cohabitation over tea and biscuits. that said, the spaces that could serve as areas for drawing, mapping or moving around are very limited, as plant pots and vases literally take up the entire room. but we soon agree on a kind of interview format for now as it seems very overwhelming to start drawing the relatios at hand when not knowing anything about their pasts and futures. so we listen, ask, take notes, agree and disagree. Oscar shows us every corner of the plant world and the moment I accidentilly touch a hanging branch with bright green leaves, he immediately draws my attention to it. 
+
+it is only some time later, that Myrto and me sit in her living room and listen individually to the audio file, now having all the papers and pens in front of us, writing down quotes, point out agents and draw lines and arrows that connect and disconnect. after doing this on our selfs and on our own, we combine it in a digital space (our favorite tool: the miro board).
+
+<img src="../oscar.jpg" alt="drawing" width="800"/>
+
+what will happen next and if there will be a follow up mapping about the possisble futures of how oscar and plants are relating is still in the stars. for now we keep it what it is, a first person observation of a first person perspective on what it meanss to live-with plants.
+
 ## imaginar mundus possibles in disseny hub 
 `on 19.01.2023. presenting our paper on the importance of storytelling`
 
-together with Myrto we spend the christmas vacations on readinig, writing, rereading and rewriting. after the last design dialogues, myrto and me applied with a simple idea to a complex conference on speculative futures organized by the **[esbrina research group](https://esbrina.eu/en/home/)**. its name: **[imaginar mundos posibles: Potencialidades, límites y fricciones de la ficción especulativa en la investigación y la educación](https://esbrina.eu/en/portfolio/imaginar-mundos-posibles-potencialidades-limites-y-fricciones-de-la-ficcion-especulativa-en-la-investigacion-y-la-educacion-3/)**. 
+together with Myrto we spend the christmas vacations on reading, writing, rereading and rewriting. after the last design dialogues, myrto and me applied with a simple idea to a complex conference on speculative futures organized by the **[esbrina research group](https://esbrina.eu/en/home/)**. its name: **[imaginar mundos posibles: Potencialidades, límites y fricciones de la ficción especulativa en la investigación y la educación](https://esbrina.eu/en/portfolio/imaginar-mundos-posibles-potencialidades-limites-y-fricciones-de-la-ficcion-especulativa-en-la-investigacion-y-la-educacion-3/)**. 
 
 the paper we wrote emphasizes the importance of creating and listening to stories in a world where few voices and stories are being noticed. we argue that stories are essential for going beyond monophonic and catastrophic narratives, and that they are a form of “attunement” to the worlds we find ourselves in. we propose a method for diversifying narratives about the future by democratizing storytelling and using speculative fiction as a tool. based on Timothy Morton's concept of a “mesh”, we propose a mapping technique that creates space for entangled narratives to evolve, encouraging participants to speculate about fictional scenarios that play out in this “web of life”. our presentation at the conference can be watched on **[youtube](https://www.youtube.com/watch?v=VCIUQwZL0Wc&t=25940s)**
 
@@ -14,9 +29,10 @@ and the paper will soon be published (in an internal publication of the conferen
 
 <iframe src="https://drive.google.com/file/d/1Sza3OhiKUhCDAYV8IGVVA4QKtI62RMoQ/preview" width="640" height="480" allow="autoplay"></iframe>
 
-the conference took place over the course of two full days that were filled with presentations (in casstellano and catalan) of other researchers that deal with speculative fiction in the course of design methodologies. it was very interesting to listen to and we got in contact with curious minds and experiences practitioners. on friday afternoon we had the change to meet **[Yuri Tuma](https://www.yurituma.com/)** who both, Myrto and me are followung due to his participattion in the artist collective the **[institute for posttnatural studies](https://www.instituteforpostnaturalstudies.org/)** whose practice we both admire. this two-hour workshop left us enthiusastic about our own practice and with lots of ideas and contacts of how and with whom to continue our journey in the coming weeks.
+the conference took place over the course of two full days that were filled with presentations (in castellano and catalan) of other researchers that deal with speculative fiction in the course of design methodologies. it was very interesting to listen to and we got in contact with curious minds and experiences practitioners. on friday afternoon we had the change to meet **[Yuri Tuma](https://www.yurituma.com/)** who both, Myrto and me are following due to his participattion in the artist collective the **[institute for posttnatural studies](https://www.instituteforpostnaturalstudies.org/)** whose practice we both admire. this two-hour workshop left us enthiusastic about our own practice and with lots of ideas and contacts of how and with whom to continue our journey in the coming weeks.
 
 ## the traveller start their journey
+`end of january till end of february at Ombu`
 
 <img src="../traveller.gif" alt="drawing" width="200" align="left"/>
 
