@@ -33,14 +33,22 @@ nav:
           - making sense and  meaning: term2/makingsense/makingsense.md
           - communicating ideas: term2/communicating/communicatingideas.md
           - digital prototyping: term2/prototyping/notes.md
-          - micro challenges: 
-            - first challenge: term2/microchallenge/microchallenge.md
-            - second challenge: term2/microchallenge/microchallengeII.md
           - measuring the world: term2/measuringworld/measuringworld.md
+          - micro challenges: 
+            - first challenge: term2/microchallenges/microchallenge.md
+            - second challenge: term2/microchallenges/microchallengeII.md
+          - second design dialogues: term2/dialogues2/dialogues2.md
+      - research trip el hierro: trip/elhierro.md
       - term three :
-          - design studio III:
+          - design studio III: 
             - term III: term3/designstudio3/designstudio3.md
             - third interventions: term3/designstudio3/interventions3/collectiveinterventions3.md
+          - distributed design: term3/distributeddesign/distributeddesign.md
+          - prototyping: 
+            - prototyping: term3/prototyping/notes.md
+            - microchallenge: term3/prototyping/microchallenge/microchallengeIII.md
+          - MDEF fest: term3/MDEFfest/mdeffest.md
+          - design ethics: term3/designethics/designethics.md
 
   - masterproject :
       - in progress: masterproject/masterproject.md

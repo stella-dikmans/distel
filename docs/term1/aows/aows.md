@@ -35,9 +35,9 @@ additionally, I made up some cards that did **not exist** yet but that seem esse
 for my high school finals in 2016, I wrote a piece on the potential of the concept and term "Anthropocene" to bring climate change and environmental health to the center of social and political discourses. this was shortly before a 34-member team at the 35th International Geological Congress in Cape Town confirmed the theses on anthropological impacts and its own valid terminology. in 2020, I dealt with the effects of the social environment on one's own environmental attitude in my sociology bachelor's thesis, again investigating with the human being in focus. only at art college, I started to incorporate my *more-than-human* interests into my professional practice. I began reading **Le Guin** and **Haraway** and exhibited an installation at DDW2021 about the fragile but essential importance of Earth’ “air” to living organisms. I am now convinced that humans cannot be the sole center of inquiry, as this would exclude many very potent areas of research. we must think, sense, and investigate on *multiple scales*, which includes observing *non-human narratives* and their experiences. ultimately, climate change and environmental health are *stories* shaped by more than one narrative.
 
 ### design space 01 / 2022
-<img src="../designspacesimple.jpg" alt="link missing" width="900" />
+<img src="../designspacesimple.png" alt="link missing" width="900" />
 
-<img src="../multiscalarthinking.jpg" alt="drawing" width="300" align="right"/>
+<img src="../multiscalarthinking.png" alt="drawing" width="300" align="right"/>
 
 my practice seeks for an *equal distribution* of the impacts of climate change and expansive responses to them by *fueling the multiplicity* of *more-than-human narrations*. I want to learn how to design *balanced relationships* that embody synergies, acknowledging that the interconnected whole is not only the sum of its parts. this is all the same place, one world with all its differences and human and non-human organisms that are equally worth protecting and thriving. I observe that political discourses are stuck in their monophonic stories and easily lose sight of essential needs such as access to clean air, drinking water, and balanced nutrition.
 
@@ -60,4 +60,4 @@ my parents took me and my brother camping in nature from an early age. there was
 I think I had my first culture shock when I was 16, arriving back from a four month stay in the forests near Chiang Mai, Thailand to my parents’ house in Berlin, Germany. I went to the bathroom and realized for the first time in my life that I had been flushing away my excrements with drinking water. and not only that but by throwing soft-washed paper into the water, I polluted it, so that it meant an enormous effort to filter, clean and treat the water before it could be used again in the tap water system of this city. knowing at the same time about the water grabbing that was going on on the continent of Africa, where people die because of the lack of fresh water while they are walking on top of underground reservoirs. how come that we do this with most self-evidence, without questioning the infiniteness of water that we have been told about? or better, that is just not talked about?
 
 ### design space 02 / 2022
-<img src="../designspacecomplex.jpg" alt="link missing" width="950" />
+<img src="../designspacecomplex.png" alt="link missing" width="950" />

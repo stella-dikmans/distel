@@ -11,13 +11,13 @@ next to that we were practically introduced to the notebook-world and dived into
 here, I present my notes that will eventually resonate in my artistic practices.
 
 
-<img src="../AI1.jpg" alt="drawing" width="600"/>
+<img src="../AI1.png" alt="drawing" width="600"/>
 
-<img src="../AI2.jpg" alt="drawing" width="600"/>
+<img src="../AI2.png" alt="drawing" width="600"/>
 
-<img src="../AI3.jpg" alt="drawing" width="900"/>
+<img src="../AI3.png" alt="drawing" width="900"/>
 
-<img src="../AI4.jpg" alt="drawing" width="1000"/>
+<img src="../AI4.png" alt="drawing" width="1000"/>
 
 ##DYIosaurus
 

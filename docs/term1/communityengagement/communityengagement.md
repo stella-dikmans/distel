@@ -11,7 +11,7 @@ but mainly this week was a week full of exploring *design*. eventually we talked
 
 <img src="../communityengagement.png" alt="link missing" width="800"/>
 
-<img src="../human.png" alt="link missing" width="250"align="right"/>
+<img src="../human.png" alt="link missing" width="250" align="right"/>
 
 <b>we talked about creating dialogues in various ways.</b>
 
@@ -31,7 +31,7 @@ a key in dealing with our resources responsibly is preparation. Preparing *the m
 
 the process of mapping out a challenge, interest and point of transition, is essential to include communities and all another agents that are involved, that are related to the topic. before we intervene, engage in a (social) system, we have to understand the (social) capitals at stake. following `Bruno Latour`, we are using the term *actant* to describe all participating entities that have agency in a chosen situatioship.
 
-<img src="../actantmapt.jpg" alt="link missing" width="600"/>
+<img src="../actantmapt.png" alt="link missing" width="600"/>
 
 
 

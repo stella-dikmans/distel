@@ -5,7 +5,7 @@ hide:
 
 #
 
-<img src="../me.JPG" alt="drawing" width="500" align="right"/>
+<img src="../me.png" alt="drawing" width="500" align="right"/>
 
 #
 

@@ -6,7 +6,7 @@
 the *MDEF design studio* aims to bring project ideas into an advanced concretion point, and execution plan. it is there to introduce us to the methodology the MDEF programm uses to imagine alternative presents. three phases are defining the structure of our year as well. in term 1 we deal with framing perspectives, in term 2 we iterate through practically the embodying of scenaios, and in term 3 we scale ideas and prjects up and build infrastructures for enabling. in the first term we will learn what it means to design for emergent futures, by analyzing pasts, presents and futures from first-person perspectives (1PP). we will look for *weak signals* and find out how they can have leverage. we will build our identity as designers and reflect on where our strengths lie and where we can have impact.
 
 the aim is to develop a critical design practice by the end of the semester that operates in fertile areas of interventions built on mappings, cartographies, experiments, 1st person design activities and prototypes.
-#s
+
 # prototyping
 *prototyping as a tool for my design practice*
 
@@ -54,7 +54,7 @@ the context in which I move, shapes me as a professional in the sense that the p
 
 with the help of *four areas of reflection*, I can develop my *workspace*; I am thereby augmenting my subjective context.
 
-##my RtD toolbox
+## my RtD toolbox
 
 based on my ever-changing visions and identities that persist in **[my hybrid profile](https://stella-dikmans.github.io/distel/term1/bootcamp/myfight/#my-hybrid-profile)**
 
@@ -68,15 +68,15 @@ areas of reflection:
 
 (4) artistic conceptualization – this includes the sources of inspiration that shape my practice.
 
-<img src="../augmentedcontext.jpg" alt="drawing" width="1000" />
+<img src="../augmentedcontext.png" alt="drawing" width="1000" />
 
 
 I aim to use my RtD toolbox to navigate actively through my **[design space of weak signals](https://stella-dikmans.github.io/distel/term1/aows/aows/#my-multiscalar-design-space)**
 
 to follow my sequential ideas, keep an eye on my **[drifting-process](https://stella-dikmans.github.io/distel/progress/drifting/)** in which I center my topic of interest through which I hope to access my more wider conceptual interests.
 
-#
-#design interventions
+# 
+# design interventions
 `with Oscar Tomico`
 
 having defined the design space in which I move, it was about time to talk about the active engagement in it. we are introduced to *design interventions* that can come in various shapes and colors. by intervening as designers in our design spaces, we are exploring rather than testing. we aim to start dialogues that evoke imagination and speculation. this deductive approach asks a great deal of reflection as you are constantly drifting around topics and contents...
@@ -89,9 +89,9 @@ the first-person perspective (1PP) is one of the *research through design tools*
 
 me in action?
 
-<img src="../intervention4.jpeg" alt="drawing" width="600" />
+<img src="../intervention4.png" alt="drawing" width="600" />
 
-<img src="../intervention3.jpeg" alt="drawing" width="600" />
+<img src="../intervention3.png" alt="drawing" width="600" />
 
 ##where it all comes together
 

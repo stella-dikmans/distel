@@ -8,7 +8,7 @@ this first week, we are thrown into the main ambitions of this master program. w
 
 #what is my fight?
 
-<img src="../scan.jpg" alt="drawing" width="1000"/>
+<img src="../scan.png" alt="drawing" width="1000"/>
 
  I am against any kind of violence. even if I understand the bubble-like qualities, this intense experience brought with it, I would like to rephrase: *I work against global inequalities and for an equal distribution of the impacts of climate change and expansive responses to them.*
 

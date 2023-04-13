@@ -7,9 +7,9 @@
 
 ##initial ideas
 
-<img src="../mindmap.jpeg" alt="link missing" width="500"/>
+<img src="../mindmap.png" alt="link missing" width="500"/>
 
 
 ##heading towards concreteness?
-<img src="../mypractice.jpg" alt="link missing" width="900"/>
+<img src="../mypractice.png" alt="link missing" width="900"/>
 

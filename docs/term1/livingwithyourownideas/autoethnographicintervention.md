@@ -7,7 +7,7 @@
 
 this course is aimed to learn how to quickly embody concepts, and address them through lived experiences. we will engage in making processes and experiences our fields of research through our bodies. instead of only speculating, we will realize concepts at their very start and see how this might bring them further.
 
-<img src="../livingwithyourownideas.jpg " alt="link missing" width="800"/>
+<img src="../livingwithyourownideas.png" alt="link missing" width="800"/>
 
 # companionship
 *learning from each other.*

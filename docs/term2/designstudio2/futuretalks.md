@@ -12,3 +12,14 @@
 `30. january`
 
 
+in the three talks we ventured around the three main topics: first-persoon perspective methodologies, autoethnographic research and radical situatedness.
+
+
+
+basing on these talks, I am re-envisioning my future biography by means of an alternative present:
+
+
+
+
+
+
