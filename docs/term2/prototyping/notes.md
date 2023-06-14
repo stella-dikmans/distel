@@ -363,27 +363,28 @@ what is the difference? on a vinyl cutter, we dont have a x-y axis like in the l
 
 somehow since the presentation of edu, the **[origami simulator](https://origamisimulator.org/)** really caught my eye. not that I am a great origami practitioner, its actually quite the opposite, I am very impatient and not precise at all, so the thought of folding tiny papers into tiny figures is not really appealing to be. but I love to watch them, hold them, see them beign folded. the [origami-simulator](https://origamisimulator.org/) is designed by [an amanda](https://github.com/amandaghassaei/OrigamiSimulator) who very helping explains how things work and offer some example files on her [github page](https://github.com/amandaghassaei/OrigamiSimulator). yet to understand all of this, it took some time and to figure out, that files can be created and adapted in rhino to work in the simulator, took some more. to explain my experience in short, amanda has some [example files](https://github.com/amandaghassaei/OrigamiSimulator/tree/main/assets) that I downloaded and than imitated and adapted in variuos ways. the [simulations](https://origamisimulator.org/) then show how my rhino-drawing would fold and unfold if it would be paper. well not excactly, sometimes the simulation folds throgh and in if I out the simulations speed on very fast or somehow part just fly away, out of the screen sometimes as well. Well, i had some beautiful results playing around with exploding and colorcoding in various ways. and also then I lasercut and vinylprinted the sphere designs and in the end spend a lot of time folding paper... who had thought that would happen...  
 
-<img src="../../microchallenge/trial1pattern.png" width="400" >
-<img src="../../microchallenge/trial1.png" width="400" >
+<img src="../../microchallenges/imageryI/trial1pattern.png" width="400" >
+
+<img src="../../microchallenges/imageryI/trial1.png" width="400" >
 
 <iframe src="https://www.youtube.com/watch?v=6CcZ05MdBGI" frameborder="0" width="600" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<img src="../../microchallenge/trial2pattern.png" width="400" >
-<img src="../../microchallenge/trial2.png" width="400" >
+<img src="../../microchallenges/imageryI/trial2pattern.png" width="400" >
+<img src="../../microchallenges/imageryI/trial2.png" width="400" >
 
 I also use this newly learned skill in the challenge-week for the [MOC](https://origamisimulator.org/) with my team. on a more practical note, the online simulator reads SVGs in a certain way (File - Design Tips on the [simulator](https://origamisimulator.org/) (Mountain folds have red stroke - rgb(255, 0, 0), hex #ff0000; Valley folds have blue stroke - rgb(0, 0, 255), hex #0000ff; Boundary edges have black stroke - rgb(0, 0, 0), hex #000000). these rules are different to those I use during the the lasercuttring and the vinylprinting process. here I define the actions and allocate them to the colors of choice - so in the end, the colours I use for the simulation-SVGs are fine to. but its important to keep in mind that the simulation SVGs do not necessarily have the same color-codes as the rhino-files used for printing.
 
-<img src="../../microchallenge/trial3pattern.png" width="400" >
-<img src="../../microchallenge/trial3.png" width="400" >
+<img src="../../microchallenges/imageryI/trial3pattern.png" width="400" >
+<img src="../../microchallenges/imageryI/trial3.png" width="400" >
 
 <iframe src="https://www.youtube.com/watch?v=sKiC5CueAeU" frameborder="0" width="600" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<img src="../../microchallenge/trial4pattern.png" width="400" >
-<img src="../../microchallenge/trial4.png" width="400" >
+<img src="../../microchallenges/imageryI/trial4pattern.png" width="400" >
+<img src="../../microchallenges/imageryI/trial4.png" width="400" >
 
-<img src="../../microchallenge/armadillo.gif" width="400" >
+<img src="../../microchallenges/imageryI/armadillo.gif" width="400" >
 
-<img src="../../microchallenge/armadillosfinal.png" width="400" >
+<img src="../../microchallenges/imageryI/armadillosfinal.png" width="400" >
 
 
 # about embedded codings (or how to use input and output sensors)

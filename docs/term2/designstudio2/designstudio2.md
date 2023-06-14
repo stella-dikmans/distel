@@ -1,6 +1,7 @@
 ##
 
 # design studio II
+`with Mariana and Jana`
 
 the design studio is there to introduce us to the methodology the MDEF programm uses to imagine *alternative presents*. three phases are defining the structure of our year (actually only nine month). in term I we deal with framing perspectives, in term II we iterate through the practical embodying of scenarios, and in term III we scale ideas and projects up and build infrastructures that help realize them.
 

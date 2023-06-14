@@ -24,6 +24,6 @@ Based on our thought-exchange with Oscar Tomico, it appeared that the interests 
 
 # what is my (updated) fight?
 
-I stated this course with the design of a **[first 'my fight' poster](https://stella-dikmans.github.io/distel/term1/bootcamp/myfight/)** (left) and are now updating this according to the transformations I was going through (right)s. about this transformation there is a more detailed account in **[the following chapter](https://stella-dikmans.github.io/distel/term2/designstudio2/designstudio2/#_1)**.
+I started this course with the design of a **[first 'my fight' poster](https://stella-dikmans.github.io/distel/term1/bootcamp/myfight/)** (left) and are now updating this according to the transformations I was going through (right)s. about this transformation there is a more detailed account in **[the following chapter](https://stella-dikmans.github.io/distel/term2/designstudio2/designstudio2/#_1)**.
 
 <img src="../myfight1+2.png" alt="drawing" width="1000"/> 

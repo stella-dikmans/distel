@@ -722,3 +722,4 @@ They came, they took, they murdered - they coloonized.
 
 So we come, we point it out, we track it, we deface it - we decolonize. 
 
+<img src="../imageryII/stickers.png" alt="drawing" width="400"/>

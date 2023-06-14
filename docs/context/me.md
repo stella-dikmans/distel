@@ -23,4 +23,6 @@ as a sociologist, artist and architectural thinker, I am convinced that the thor
 
 I have learned that exchange and discussion open up (new) possibilities for seeing and thinking; recognizing and developing discourses together promotes heterogeneous coexistences. for me, creating social spaces means imagining collective solutions to global challenges.
 
-**[my website](https://stella-dikmans.github.io/distel/)**
+**[more about me](https://stella-dikmans.github.io/distel/context/bio/)**
+
+**[my portfolio website](https://stella-dikmans.github.io/)**

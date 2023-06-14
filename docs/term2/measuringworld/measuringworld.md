@@ -59,7 +59,7 @@ eCO2: Equivalent CO2 is the concentration of CO2 that would cause the same level
 
     MDEF room: Parameter (1)
     Reference IAAC room: Parameter (2)
-    Beach: Parameter
+    Beach: Parameter (3)
 
 
 <img src="../maps.png" alt="drawing" width="600"/>

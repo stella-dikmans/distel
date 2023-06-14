@@ -47,8 +47,9 @@ nav:
           - prototyping: 
             - prototyping: term3/prototyping/notes.md
             - microchallenge: term3/prototyping/microchallenge/microchallengeIII.md
-          - MDEF fest: term3/MDEFfest/mdeffest.md
           - design ethics: term3/designethics/designethics.md
+          - critical transfemenist design: term3/transfeminist/transfeminist.md
+          - decentralized autonomous organizations: term3/decentralize/decentralize.md
 
   - masterproject :
       - in progress: masterproject/masterproject.md
@@ -59,6 +60,7 @@ nav:
 
   - context :
       - about me: context/me.md
+      - more about me: context/bio.md
 
 
 theme:
